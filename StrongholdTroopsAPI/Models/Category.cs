@@ -2,6 +2,9 @@
 
 namespace StrongholdTroopsAPI.Models
 {
+    /// <summary>
+    /// Cateagory class
+    /// </summary>
     public class Category 
     {
         public int Id { get; set; } 

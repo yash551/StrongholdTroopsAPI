@@ -4,6 +4,9 @@ using System.Text.Json.Serialization;
 
 namespace StrongholdTroopsAPI.Models
 {
+    /// <summary>
+    /// Soldier class
+    /// </summary>
     public class Soldier 
     {
         public int Id { get; set; }

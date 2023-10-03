@@ -2,6 +2,10 @@
 
 namespace StrongholdTroopsAPI.Models
 {
+
+    /// <summary>
+    /// Army context class which gives blueprint for the DB
+    /// </summary>
     public class ArmyContext : DbContext
     {
         public ArmyContext(DbContextOptions<ArmyContext> options) : base(options) { }
